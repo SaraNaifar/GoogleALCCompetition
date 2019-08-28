@@ -19,6 +19,8 @@ export class EventsComponent implements OnInit {
       country:"England"
     }
   }
+
+
   constructor() { }
 
   ngOnInit() {

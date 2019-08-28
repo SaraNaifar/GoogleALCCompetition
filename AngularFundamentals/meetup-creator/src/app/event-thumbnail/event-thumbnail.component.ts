@@ -11,6 +11,7 @@ export class EventThumbnailComponent implements OnInit {
     //we use the decorator input to tell angular that this component is emmiting data to its parent component
 
   @Output() eventClick = new EventEmitter();
+  someVar:any= "saroooora";
   constructor() { }
 
   ngOnInit() {
