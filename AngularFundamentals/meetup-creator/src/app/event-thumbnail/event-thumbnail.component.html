@@ -1,0 +1,16 @@
+<div>
+    <h1>Angular Upcoming events</h1>
+    <hr>
+    <div>
+        <h2>{{eventThumbnail.name}}</h2>
+        <div>Date:{{eventThumbnail.date}}</div>
+        <div>Time:{{eventThumbnail.time}}</div>
+        <div>Price:{{eventThumbnail.price}}</div>
+        <div>
+            <span>Location:{{eventThumbnail.location.adress}}</span>
+            <span>&nbsp;</span>
+            <span>City:{{eventThumbnail.location.city}}, {{eventThumbnail.location.country}}</span>
+            </div>
+    </div>
+    <button class="btn btn-primary" (click)="handleClickMe()">click me!</button>
+</div>
