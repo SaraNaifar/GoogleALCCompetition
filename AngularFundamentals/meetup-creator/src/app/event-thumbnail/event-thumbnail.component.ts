@@ -6,8 +6,10 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./event-thumbnail.component.css']
 })
 export class EventThumbnailComponent implements OnInit {
-  //we use the decorator input to tell angular that this component is receving data from other component
+  //we use the decorator input to tell angular that this component is receving data from its parent component
   @Input() eventThumbnail:any;
+    //we use the decorator input to tell angular that this component is emmiting data to its parent component
+
   @Output() eventClick = new EventEmitter();
   constructor() { }
 
